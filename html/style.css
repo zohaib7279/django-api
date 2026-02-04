@@ -1,0 +1,79 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    line-height:1.8em;
+    font-size: 16px;
+    font-family: "lato" sans-serif;
+     color: #666;
+     font-weight: 400;
+}
+
+.p-img-1{
+    background-image: url(./images/pexel.jpg);
+ min-height: 100%;     
+}
+
+.p-img-2{
+    background-image: url(images/pexels-photo-167698.jpeg);
+ min-height: 400px;     
+}
+
+.p-img-3{
+    background-image: url(./images/pexels-lastly-572688.jpg);
+ min-height: 400px;     
+}
+
+.p-img-4{
+    background-image: url(./images/pexels-sebastian-palomino-933481-1955134.jpg);
+}
+
+.p-img-1 , .p-img-2 , .p-img-3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.textbg{
+    background-color: #313534;
+    color: #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 400px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-self: center;
+    margin-left: 475px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark{
+    color: #f4f4f4;
+    background-color: #313534;
+}
+
+.p-img-4{
+    background-image: url(images/pexels-photo-1955134.jpeg);
+    background-size: cover;
+}
